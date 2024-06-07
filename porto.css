@@ -6,9 +6,12 @@ body {
   margin: 0;
   background-color: #f0f0f0;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .navbar {
-  width: 100%;
+  width: 97vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +28,10 @@ body {
   font-weight: bold;
 }
 
-.nav-links a {
+.nav-links {
   color: white;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .container {
